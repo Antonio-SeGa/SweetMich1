@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onNavigationItemReselected( MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.firstFragment:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.content, new MenuFragment()).addToBackStack(null).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.content, new MenuFragment()).commit();
                         break;
                     case R.id.secondFragment:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.content, new PedidosFragment()).addToBackStack(null).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.content, new PedidosFragment()).commit();
                         break;
                     case R.id.thirdFragment:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.content, new PerfilFragment()).addToBackStack(null).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.content, new PerfilFragment()).commit();
                         break;
                 }
             }

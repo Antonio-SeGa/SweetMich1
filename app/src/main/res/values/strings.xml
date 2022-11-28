@@ -27,4 +27,9 @@
     <string name="todo5">TODO</string>
     <string name="todo6">TODO</string>
     <string name="paquetes2">Paquetes</string>
+    <string name="arma_tu_postre2">Arma tu postre</string>
+    <string name="todo7">TODO</string>
+    <string name="el_flan_es_un_postre_elaborado_con_una_natilla_teniendo_como_ingredientes_principales_huevos_enteros_leche_y_az_car">El flan es un postre elaborado con una natilla, teniendo como ingredientes principales huevos enteros, leche y azúcar.</string>
+    <string name="flan">Flan</string>
+    <string name="acerca_de_nosotros">Acerca de nosotros</string>
 </resources>

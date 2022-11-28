@@ -16,73 +16,9 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <ImageButton
-        android:layout_width="141dp"
-        android:layout_height="162dp"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="220dp"
-        android:contentDescription="@string/todo"
-        android:focusable="true"
-        android:src="@drawable/postrecatalogo1"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <ImageButton
-        android:layout_width="142dp"
-        android:layout_height="162dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/todo6"
-        android:src="@drawable/postrecatalogo2"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <ImageButton
-        android:layout_width="139dp"
-        android:layout_height="163dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginStart="40dp"
-        android:contentDescription="@string/todo4"
-        android:src="@drawable/postrecatalogo3"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="156dp"
-        android:layout_marginTop="450dp"
-        android:layout_marginStart="220dp"
-        android:contentDescription="@string/todo3"
-        android:src="@drawable/postrecatalogo4"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <ImageButton
-        android:layout_width="141dp"
-        android:layout_height="158dp"
-        android:layout_marginTop="250dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="220dp"
-        android:contentDescription="@string/todo1"
-        android:src="@drawable/postrecatalogo5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <ImageButton
-        android:layout_width="141dp"
-        android:layout_height="160dp"
-        android:layout_marginTop="450dp"
-        android:layout_marginStart="40dp"
-        android:contentDescription="@string/todo5"
-        android:src="@drawable/postrecatalogo6"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="174dp" />
+    <include
+        layout="@layout/paquete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"/>
 </RelativeLayout>
