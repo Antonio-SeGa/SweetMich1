@@ -11,10 +11,6 @@ import android.view.ViewGroup;
 
 public class armaPostreFragment extends Fragment {
 
-    public armaPostreFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -10,10 +10,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Bienvenido"
+            android:text="@string/bienvenido"
             android:textAlignment="center"
-            android:textColor="#EE8DBE"
-            android:textSize="30dp"
+            android:textColor="#F06292"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -28,7 +28,7 @@
             android:src="@drawable/userprofile"
             app:civ_border_color="@color/Color1"
             app:civ_border_width="5dp" />
-
+<!--
         <Button
             android:id="@+id/btnProfile"
             android:layout_width="match_parent"
@@ -43,20 +43,23 @@
             android:text="Perfil"
             android:textAlignment="viewStart"
             app:icon="@drawable/ic_baseline_account_circle" />
-
+-->
         <Button
             android:id="@+id/btnAddresse"
             android:layout_width="match_parent"
             android:layout_height="67dp"
+            android:textSize="15sp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="260dp"
+            android:layout_marginTop="190dp"
             android:layout_marginEnd="60dp"
             android:backgroundTint="#F6A4BC"
-            android:text="Dirección"
+            android:onClick="onCLick"
+            android:text="@string/direcci_n"
             android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
             app:icon="@drawable/ic_location" />
 
         <Button
@@ -67,11 +70,13 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="330dp"
+            android:layout_marginTop="260dp"
             android:layout_marginEnd="60dp"
             android:backgroundTint="#F6A4BC"
-            android:text="Tarjetas"
+            android:text="@string/tarjetas"
             android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:onClick="onCLick"
             app:icon="@drawable/ic_baseline_credit_card" />
 
         <Button
@@ -82,11 +87,13 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="400dp"
+            android:layout_marginTop="330dp"
             android:layout_marginEnd="60dp"
             android:backgroundTint="#F6A4BC"
-            android:text="Cambio de Contraseña"
+            android:onClick="onCLick"
+            android:text="@string/cambio_de_contrasena"
             android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
             app:icon="@drawable/ic_baseline_key" />
 
         <Button
@@ -97,24 +104,28 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="470dp"
+            android:layout_marginTop="400dp"
             android:layout_marginEnd="60dp"
             android:backgroundTint="#F6A4BC"
-            android:text="Acerca de"
+            android:text="@string/acercade"
+            android:textColor="#FFFFFF"
             android:textAlignment="viewStart"
+            android:onClick="onCLick"
             app:icon="@drawable/ic_baseline_info" />
 
-    <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="169dp"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="126dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginBottom="75dp"
-        android:backgroundTint="#ACC2DC"
-        android:text="Cerrar Sesión" />
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="75dp"
+            android:backgroundTint="#ACC2DC"
+            android:text="@string/cerrar_sesion"
+            android:textColor="#FFFFFF"
+            tools:ignore="TouchTargetSizeCheck" />
 
 </RelativeLayout>

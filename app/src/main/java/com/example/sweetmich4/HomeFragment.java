@@ -35,7 +35,6 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         return view;
-
     }
 
     @Override
@@ -63,30 +62,19 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
-                ft.replace(R.id.content, new PaquetesFragment()).commit();
+                ft.replace(R.id.content, new armaPostreFragment()).commit();
             }
         });
 
-        //Arma tu poatre
+        //Paquetes
         Button button3 = (Button)view.findViewById(R.id.buttonPaq);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
-                ft.replace(R.id.content, new CatalogoFragment()).commit();
+                ft.replace(R.id.content, new PaquetesFragment()).commit();
             }
         });
     }
 
-
-    public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.buttonCat: getParentFragmentManager().beginTransaction().replace(R.id.content, new PaquetesFragment()).commit();
-                break;
-            case R.id.buttonArm: getParentFragmentManager().beginTransaction().replace(R.id.content, new PerfilFragment()).commit();
-                break;
-            case R.id.buttonPaq: getParentFragmentManager().beginTransaction().replace(R.id.content, new CatalogoFragment()).commit();
-                break;
-        }
-    }
 }

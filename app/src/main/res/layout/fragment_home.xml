@@ -48,7 +48,8 @@
         android:onClick="onClick"
         android:text="Arma tu postre"
         android:textColor="@color/white"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/buttonCat"

@@ -10,10 +10,6 @@ import android.view.ViewGroup;
 
 public class MenuFragment extends Fragment {
 
-    public MenuFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
