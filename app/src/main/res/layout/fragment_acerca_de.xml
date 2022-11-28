@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,5 +15,94 @@
         android:textColor="#F06292"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutUs">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="385dp"
+            android:layout_height="58dp"
+            android:text="Ultrices nec nec lobortis neque aenean facilisi at non. At commodo, aliquam ligula cras sit nunc, ut. At leo sed arcu, tellus. "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.408" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="52dp"
+            android:text="¿Quienes somos?"
+            android:textColor="#5192B2"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="220dp"
+            android:layout_height="159dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginBottom="477dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel purus ultrices aliquet leo. Neque, urna, morbi varius ut ultricies enim. Enim accumsan at sagittis dapibus sem nisi quisque vulputate. Quis odio facilisi massa nullam amet libero. Nec tempor erat urna, faucibus sagittis, velit ut placerat. "
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="333dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="371dp"
+            android:text="Aviso de privadidad"
+            android:textColor="#5192B2"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="235dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+            android:text="Molestie bibendum proin at eu. Feugiat fames habitant dolor vitae quis in praesent. Nullam nunc facilisis nulla interdum lobortis tortor, consequat at. Nec habitant fermentum vel urna, bibendum aliquam tempor sit. Elementum, tempus fringilla nec tellus amet volutpat feugiat quam enim. Vulputate porta quisque risus, duis facilisi sodales proin. Tellus facilisi pellentesque nisl tristique bibendum viverra ac ut. Sapien tortor ultricies nam ullamcorper nibh gravida dui. Ornare fermentum proin duis scelerisque. Quam magnis viverra ut posuere malesuada odio. Aliquet sagittis orci lectus sollicitudin sagittis ac, sit mollis nisi."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.687" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
 
 </FrameLayout>
