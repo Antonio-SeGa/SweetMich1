@@ -7,15 +7,6 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/pedidos"
-        android:textAlignment="center"
-        android:textColor="#F06292"
-        android:textSize="30sp"
-        android:textStyle="bold" />
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cvMisCompras"
         android:layout_width="match_parent"
@@ -42,9 +33,9 @@
                     android:layout_height="100dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="10dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/postrecatalogo6"
-                    android:contentDescription="TODO" />
+                    android:src="@drawable/postrecatalogo6" />
             </LinearLayout>
 
             <LinearLayout
@@ -114,7 +105,7 @@
                         android:text="5"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck" />
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
                     <ImageView
                         android:id="@+id/btnAdd"
@@ -179,7 +170,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
-                        android:text="@string/seco_de_cabrito"
+                        android:text="Seco de Cabrito"
                         android:textColor="#302E2E"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -228,7 +219,7 @@
                         android:text="5"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageView
                         android:id="@+id/btnAdd1"
@@ -338,10 +329,10 @@
                         android:editable="false"
                         android:focusable="false"
                         android:inputType="none"
-                        android:text="@string/_5"
+                        android:text="5"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageView
                         android:id="@+id/btnAdd2"
@@ -406,7 +397,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
-                        android:text="@string/seco_de_cabrito2"
+                        android:text="Seco de Cabrito"
                         android:textColor="#302E2E"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -455,7 +446,7 @@
                         android:text="5"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <ImageView
                         android:id="@+id/btnAdd3"

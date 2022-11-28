@@ -32,4 +32,8 @@
     <string name="el_flan_es_un_postre_elaborado_con_una_natilla_teniendo_como_ingredientes_principales_huevos_enteros_leche_y_az_car">El flan es un postre elaborado con una natilla, teniendo como ingredientes principales huevos enteros, leche y azúcar.</string>
     <string name="flan">Flan</string>
     <string name="acerca_de_nosotros">Acerca de nosotros</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="seco_de_cabrito">Seco de Cabrito</string>
+    <string name="_5">5</string>
+    <string name="seco_de_cabrito2">Seco de Cabrito</string>
 </resources>
