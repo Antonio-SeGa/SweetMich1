@@ -9,9 +9,81 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="Cambiar contraseña"
+        android:text="@string/cambiar_contrase_a"
         android:textAlignment="center"
         android:textColor="#F06292"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/utiliza_el_siguiente_formulario_para_cambiar_la_contrae_a_de_tu_cuenta_de_sweet_mich"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrase_a_actual"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/newTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="80dp"
+        android:layout_marginTop="240dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nueva_contrase_a"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Guardar Cambios"
+        android:backgroundTint="#ACC2DC"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        />
+
 </FrameLayout>
