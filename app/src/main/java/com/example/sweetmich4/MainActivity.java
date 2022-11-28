@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         bottomNavigationView.setOnItemReselectedListener(new NavigationBarView.OnItemReselectedListener() {
             @Override
             public void onNavigationItemReselected( MenuItem item) {
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                 switch (item.getItemId()){
                     case R.id.firstFragment:
                         getSupportFragmentManager().beginTransaction().replace(R.id.content, new MenuFragment()).addToBackStack(null).commit();

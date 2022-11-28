@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +9,7 @@
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/image_slider"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="270dp"
         app:sliderAnimationDuration="600"
         app:sliderAutoCycleDirection="back_and_forth"
         app:sliderAutoCycleEnabled="true"
@@ -24,12 +24,42 @@
         app:sliderScrollTimeInSec="2"
         app:sliderStartAutoCycle="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center"
-        android:text="Auto Image Slider Tutorial"
-        android:textSize="40sp"
-        android:layout_marginTop="400dp"/>
-</RelativeLayout>
+    <Button
+        android:id="@+id/buttonPaq"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@color/Color1"
+        android:focusable="true"
+        android:text="Paquetes"
+        android:onClick="onClick"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonArm"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="@color/Color1"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:text="Arma tu postre"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonCat"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/Color1"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:text="Cátalogo de Postres "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</FrameLayout>
