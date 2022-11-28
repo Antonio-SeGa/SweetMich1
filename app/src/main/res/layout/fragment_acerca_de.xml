@@ -6,24 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".AcercaDeFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/acerca_de_nosotros"
-        android:textAlignment="center"
-        android:textColor="#F06292"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
 <ScrollView
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         tools:context=".AboutUs">
+
+        <TextView
+            android:id="@+id/acerca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/acerca_de_nosotros"
+            android:textAlignment="center"
+            android:textColor="#F06292"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-13dp" />
 
         <TextView
             android:id="@+id/textView4"
