@@ -59,7 +59,8 @@
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
-            app:icon="@drawable/ic_location" />
+            app:icon="@drawable/ic_location"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/btnCards"
@@ -72,12 +73,13 @@
             android:layout_marginTop="260dp"
             android:layout_marginEnd="60dp"
             android:backgroundTint="#F6A4BC"
+            android:onClick="onCLick"
             android:text="@string/tarjetas"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
-            android:onClick="onCLick"
             android:textSize="12sp"
-            app:icon="@drawable/ic_baseline_credit_card" />
+            app:icon="@drawable/ic_baseline_credit_card"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/btnChanPass"
@@ -95,7 +97,8 @@
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
-            app:icon="@drawable/ic_baseline_key" />
+            app:icon="@drawable/ic_baseline_key"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/btnAboutUs"
@@ -108,12 +111,13 @@
             android:layout_marginTop="400dp"
             android:layout_marginEnd="60dp"
             android:backgroundTint="#F6A4BC"
-            android:text="@string/acercade"
-            android:textColor="#FFFFFF"
-            android:textAlignment="viewStart"
             android:onClick="onCLick"
+            android:text="@string/acercade"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
             android:textSize="12sp"
-            app:icon="@drawable/ic_baseline_info" />
+            app:icon="@drawable/ic_baseline_info"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/btnLogout"
@@ -129,6 +133,6 @@
             android:text="@string/cerrar_sesion"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
 </RelativeLayout>

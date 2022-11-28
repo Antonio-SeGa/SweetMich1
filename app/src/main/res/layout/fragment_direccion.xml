@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="Mis direcciones"
+        android:text="@string/mis_direcciones"
         android:textAlignment="center"
         android:textColor="#F06292"
         android:textSize="30sp"
@@ -23,8 +23,8 @@
         android:layout_marginTop="100dp"
         android:backgroundTint="#F6A4BC"
         android:focusable="true"
-        android:text="Agregar un puntode entrega"
-        android:drawableRight="@drawable/ic_arrow"
+        android:text="@string/agregar_un_puntode_entrega"
+        android:drawableEnd="@drawable/ic_arrow"
         android:textColor="@color/white"
         android:textSize="12sp"
         tools:ignore="TextContrastCheck" />
@@ -36,11 +36,12 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:backgroundTint="#F6A4BC"
-        android:drawableRight="@drawable/ic_arrow"
+        android:drawableEnd="@drawable/ic_arrow"
         android:focusable="true"
-        android:text="Agregar una dirección"
+        android:text="@string/agregar_una_direcci_n"
         android:textColor="@color/white"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:layout_width="match_parent"
@@ -48,7 +49,7 @@
         android:textAlignment="center"
         android:textColor="#5192B2"
         android:textSize="20sp"
-        android:text="Direcciones Personales"
+        android:text="@string/direcciones_personales"
         android:layout_marginTop="160dp"
         android:textStyle="bold" />
 </FrameLayout>

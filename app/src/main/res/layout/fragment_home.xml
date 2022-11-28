@@ -32,10 +32,11 @@
         android:layout_marginTop="480dp"
         android:backgroundTint="@color/Color1"
         android:focusable="true"
-        android:text="Paquetes"
         android:onClick="onClick"
+        android:text="@string/paquetes"
         android:textColor="@color/white"
-        android:textSize="20dp" />
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/buttonArm"
@@ -46,9 +47,9 @@
         android:backgroundTint="@color/Color1"
         android:focusable="true"
         android:onClick="onClick"
-        android:text="Arma tu postre"
+        android:text="@string/arma_tu_postre"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -60,7 +61,8 @@
         android:backgroundTint="@color/Color1"
         android:focusable="true"
         android:onClick="onClick"
-        android:text="Cátalogo de Postres "
+        android:text="@string/c_talogo_de_postres"
         android:textColor="@color/white"
-        android:textSize="20dp" />
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
 </FrameLayout>

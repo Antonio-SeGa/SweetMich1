@@ -12,4 +12,19 @@
     <string name="cambio_de_contrasena">Cambio de Contraseña</string>
     <string name="acercade">Acerca de</string>
     <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="mis_direcciones">Mis direcciones</string>
+    <string name="agregar_un_puntode_entrega">Agregar un puntode entrega</string>
+    <string name="agregar_una_direcci_n">Agregar una dirección</string>
+    <string name="direcciones_personales">Direcciones Personales</string>
+    <string name="arma_tu_postre">Arma tu postre</string>
+    <string name="c_talogo_de_postres">Cátalogo de Postres</string>
+    <string name="paquetes">Paquetes</string>
+    <string name="cat_logo_de_postres">Catálogo de postres</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="paquetes2">Paquetes</string>
 </resources>
