@@ -3,15 +3,15 @@
     <item
         android:id="@+id/firstFragment"
         android:icon="@drawable/vector"
-        android:title="Menú" />
+        android:title="@string/men" />
 
     <item
         android:id="@+id/secondFragment"
         android:icon="@drawable/fa_book"
-        android:title="Pedidos" />
+        android:title="@string/pedidos2" />
 
     <item
         android:id="@+id/thirdFragment"
         android:icon="@drawable/pajamas_profile"
-        android:title="Mi perfil" />
+        android:title="@string/mi_perfil" />
 </menu>

@@ -40,4 +40,7 @@
     <string name="utiliza_el_siguiente_formulario_para_cambiar_la_contrae_a_de_tu_cuenta_de_sweet_mich">Utiliza el siguiente formulario para cambiar la contraeña de tu cuenta de Sweet Mich.</string>
     <string name="contrase_a_actual">Contraseña actual</string>
     <string name="nueva_contrase_a">Nueva contraseña</string>
+    <string name="men">Menú</string>
+    <string name="pedidos2">Pedidos</string>
+    <string name="mi_perfil">Mi perfil</string>
 </resources>
